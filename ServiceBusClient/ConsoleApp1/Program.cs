@@ -9,7 +9,7 @@ namespace ServiceBusClient
     internal class Program
     {
         #warning Add connection string here!
-        private const string serviceBusConnectionString = "<CONNECTIONSTRING>";
+        private const string serviceBusConnectionString = "XXX";
 
         private const string queueName = "workflow";
         private static IQueueClient queueClient;
